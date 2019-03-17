@@ -3,4 +3,26 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Welcome to Amazon Prague PRG14</string>
+    <string name="Where">Where to find us:</string>
+    <string name="address">Sokolovská 268/115\nKarlín\n180 00 Praha 8\nCzech Republic</string>
+    <string name="How_to_find">How to get to the office:</string>
+    <string name="transport"><u>Metro:</u> Invalidovna (yellow line)\n<u>Tram:</u> 3, 8, 24, 92\n<u>Bus:</u> H1</string>
+
+    <string name="name_sushiTime">Sushi Time</string>
+    <string name="name_fastGood">FastGood</string>
+    <string name="name_kebabMardin">Mardin Kebab</string>
+    <string name="name_greenFactory">Green Factory</string>
+    <string name="name_cafe_le_noble">Café Le Noble</string>
+
+    <string name="address_sushiTime">Sokolovská 115</string>
+    <string name="address_fastGood">Sokolovská 115</string>
+    <string name="address_kebabMardin">Molákova 36</string>
+    <string name="address_green_factory">Sokolovská 136</string>
+    <string name="address_cafe_le_noble">Nekvasilova 29</string>
+
+    <string name="website_sushiTime">https://www.sushitime.cz/en/menu/</string>
+    <string name="website_fastGood">https://fastgoodrustonka.cz/en/nabidka.php?restaurace=rustonka</string>
+    <string name="website_greenFactory">https://www.green-factory.cz/menu-4</string>
+    <string name="website_cafe_le_noble">https://www.facebook.com/cafelenoble/</string>
 </resources>

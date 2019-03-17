@@ -26,6 +26,7 @@ public class FindFragment extends Fragment implements OnMapReadyCallback {
     MapView mMapView;
     View rootView;
 
+//TODO dodać do mapy możliwość przesuwania, powiększania i zmniejszania
 
     public FindFragment() {
         // Required empty public constructor
@@ -61,7 +62,7 @@ public class FindFragment extends Fragment implements OnMapReadyCallback {
        // MapsInitializer.initialize(getContext());
 
         LatLng prg14 = new LatLng(50.098420, 14.465882);
-        mGoogleMap.addMarker(new MarkerOptions().position(prg14).title("PRG14").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE)));
+        mGoogleMap.addMarker(new MarkerOptions().position(prg14).title("PRG14").snippet("Sokolovská 268/115").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE)));
         mGoogleMap.moveCamera(CameraUpdateFactory.newLatLng(prg14));
         mGoogleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(prg14, 15.0f));
     }
