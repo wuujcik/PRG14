@@ -25,4 +25,5 @@
     <string name="website_fastGood">https://fastgoodrustonka.cz/en/nabidka.php?restaurace=rustonka</string>
     <string name="website_greenFactory">https://www.green-factory.cz/menu-4</string>
     <string name="website_cafe_le_noble">https://www.facebook.com/cafelenoble/</string>
+    <string name="open_map"><u>Click here to open in GoogleMaps App</u></string>
 </resources>
