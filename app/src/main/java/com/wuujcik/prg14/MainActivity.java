@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
         tabLayout.setupWithViewPager(viewPager);
     }
-    public void maps_app(View view) {
+    public void link_to_maps_app(View view) {
         Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
                 Uri.parse("https://www.google.com/maps/place/Amazon+PRG14/@50.0984356,14.4635431,17z/data=!3m1!4b1!4m5!3m4!1s0x470b9357cb3279c3:0x44b87dbe980ba8a!8m2!3d50.0984322!4d14.4657318"));
         startActivity(intent);

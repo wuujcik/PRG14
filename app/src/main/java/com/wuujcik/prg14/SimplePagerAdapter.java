@@ -15,17 +15,19 @@ public class SimplePagerAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         switch (position) {
-            case 0: return new FindFragment();
-            case 1: return new RestaurantsFragment();
-            case 2: return new ShopsFragment();
-            case 3: return new AttractionsFragment();
+            case 0: return new LocationFragment();
+            case 1: return new FoodFragment();
+            case 2: return new NeighbourhoodFragment();
+            case 3: return new EveningssFragment();
+            case 4: return new OfficeFragment();
+            case 5: return new BusinessesFragment();
         }
         return null;
     }
 
     @Override
     public int getCount() {
-        return 4;
+        return 6;
     }
 
 
@@ -33,10 +35,12 @@ public class SimplePagerAdapter extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         switch (position){
-            case 0: return "Find it!";
-            case 1: return "Restaurants";
-            case 2: return "Shops";
-            case 3: return "Attractions";
+            case 0: return "Location";
+            case 1: return "Food";
+            case 2: return "Neighbourhood";
+            case 3: return "Evenings";
+            case 4: return "office";
+            case 5: return "what we do";
         }return null;
     }
 }

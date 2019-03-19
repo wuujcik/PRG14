@@ -1,5 +1,9 @@
 package com.wuujcik.prg14;
 
+
+/**Place object represents the ArrayList element that describes the places
+ * that can be visited in the neighbourhood of the office*/
+
 public class Place {
 
     private String mTitle;

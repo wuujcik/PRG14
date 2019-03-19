@@ -14,16 +14,23 @@
     <string name="name_kebabMardin">Mardin Kebab</string>
     <string name="name_greenFactory">Green Factory</string>
     <string name="name_cafe_le_noble">Café Le Noble</string>
+    <string name="name_albert">Albert</string>
 
     <string name="address_sushiTime">Sokolovská 115</string>
     <string name="address_fastGood">Sokolovská 115</string>
     <string name="address_kebabMardin">Molákova 36</string>
     <string name="address_green_factory">Sokolovská 136</string>
     <string name="address_cafe_le_noble">Nekvasilova 29</string>
+    <string name="address_albert">Molákova 614</string>
 
     <string name="website_sushiTime">https://www.sushitime.cz/en/menu/</string>
     <string name="website_fastGood">https://fastgoodrustonka.cz/en/nabidka.php?restaurace=rustonka</string>
     <string name="website_greenFactory">https://www.green-factory.cz/menu-4</string>
     <string name="website_cafe_le_noble">https://www.facebook.com/cafelenoble/</string>
+
+
     <string name="open_map"><u>Click here to open in GoogleMaps App</u></string>
+    <string name="website_albert">https://www.albert.cz/?en=1</string>
+
+
 </resources>

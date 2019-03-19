@@ -10,9 +10,9 @@ import android.widget.ListView;
 import java.util.ArrayList;
 
 
-public class RestaurantsFragment extends Fragment {
+public class FoodFragment extends Fragment {
 
-    public RestaurantsFragment() {
+    public FoodFragment() {
         // Required empty public constructor
     }
 
@@ -20,7 +20,7 @@ public class RestaurantsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View rootView = inflater.inflate(R.layout.fragment_restaurants, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_food, container, false);
 
         final ArrayList<Place> restaurant = new ArrayList<>();
         restaurant.add(new Place(getString(R.string.name_sushiTime), getString(R.string.address_sushiTime), R.drawable.icon_sushi, getString(R.string.website_sushiTime)));
@@ -28,6 +28,7 @@ public class RestaurantsFragment extends Fragment {
         restaurant.add(new Place(getString(R.string.name_kebabMardin), getString(R.string.address_kebabMardin), R.drawable.icon_blank));
         restaurant.add(new Place(getString(R.string.name_greenFactory), getString(R.string.address_green_factory), R.drawable.icon_green_factory, getString(R.string.website_greenFactory)));
         restaurant.add(new Place(getString(R.string.name_cafe_le_noble), getString(R.string.address_cafe_le_noble), R.drawable.icon_cafe_le_noble, getString(R.string.website_cafe_le_noble)));
+        restaurant.add(new Place(getString(R.string.name_albert), getString(R.string.address_albert), R.drawable.icon_albert, getString(R.string.website_albert)));
 
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), restaurant);
         ListView listView = (ListView) rootView.findViewById(R.id.layout_restautants);

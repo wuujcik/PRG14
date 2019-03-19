@@ -13,13 +13,12 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.GoogleMapOptions;
 import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.OnMapReadyCallback;
-import com.google.android.gms.maps.UiSettings;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 
-public class FindFragment extends Fragment implements OnMapReadyCallback {
+public class LocationFragment extends Fragment implements OnMapReadyCallback {
 
     GoogleMap mGoogleMap;
     MapView mMapView;
@@ -28,7 +27,7 @@ public class FindFragment extends Fragment implements OnMapReadyCallback {
 
 //TODO dodać do mapy możliwość przesuwania, powiększania i zmniejszania
 
-    public FindFragment() {
+    public LocationFragment() {
         // Required empty public constructor
     }
 
@@ -36,7 +35,7 @@ public class FindFragment extends Fragment implements OnMapReadyCallback {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        rootView = inflater.inflate(R.layout.fragment_find, container, false);
+        rootView = inflater.inflate(R.layout.fragment_location, container, false);
         scrollView = (ScrollView) rootView.findViewById(R.id.fragment_find);
         return rootView;
     }
