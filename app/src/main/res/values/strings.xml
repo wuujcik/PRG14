@@ -31,6 +31,7 @@
 
     <string name="open_map"><u>Click here to open in GoogleMaps App</u></string>
     <string name="website_albert">https://www.albert.cz/?en=1</string>
+    <string name="no_website">Sorry, no website!</string>
 
 
 </resources>

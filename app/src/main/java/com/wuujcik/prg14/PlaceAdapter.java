@@ -36,8 +36,8 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         TextView addressTextView = listItemView.findViewById(R.id.element_address);
         addressTextView.setText(currentPlace.getmAddress());
 
-        TextView websiteTextView = listItemView.findViewById(R.id.element_website);
-        websiteTextView.setText(currentPlace.getmWebsite());
+    //    TextView websiteTextView = listItemView.findViewById(R.id.element_website);
+      //  websiteTextView.setText(currentPlace.getmWebsite());
 
         if (currentPlace.hasImage()) {
             ImageView iconView = (ImageView) listItemView.findViewById(R.id.element_icon);
@@ -48,7 +48,16 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         }
 
 
+        if(currentPlace.getmWebsite()!=null) {
+            ImageView iconClick = (ImageView) listItemView.findViewById(R.id.element_www);
+            iconClick.setVisibility(View.VISIBLE);
 
+        } else{
+            //makes the icon_click_xml disappear since it's not clickable
+            ImageView iconClick = (ImageView) listItemView.findViewById(R.id.element_www);
+            iconClick.setVisibility(View.GONE);
+
+        }
 
 
     return listItemView;
