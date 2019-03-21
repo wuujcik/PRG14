@@ -54,17 +54,8 @@ public class Place {
     public int getmIcon() {
         return mIcon;
     }
-
-    public void setmTitle(String mTitle) {
-        this.mTitle = mTitle;
-    }
-
-    public void setmAddress(String mAddress) {
-        this.mAddress = mAddress;
-    }
-
-    public void setmIcon(int mIcon) {
-        this.mIcon = mIcon;
+    public String getmWebsite() {
+        return mWebsite;
     }
 
     public boolean hasImage(){
@@ -72,11 +63,7 @@ public class Place {
     }
 
 
-    public String getmWebsite() {
-        return mWebsite;
-    }
 
-    public void setmWebsite(String mWebsite) {
-        this.mWebsite = mWebsite;
-    }
+
+
 }

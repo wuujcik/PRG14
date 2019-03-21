@@ -32,6 +32,10 @@
     <string name="open_map"><u>Click here to open in GoogleMaps App</u></string>
     <string name="website_albert">https://www.albert.cz/?en=1</string>
     <string name="no_website">Sorry, no website!</string>
+    <string name="link_to_google_maps_app">https://www.google.com/maps/place/Amazon+PRG14/@50.0984356,14.4635431,17z/data=!3m1!4b1!4m5!3m4!1s0x470b9357cb3279c3:0x44b87dbe980ba8a!8m2!3d50.0984322!4d14.4657318</string>
+    <string name="name_dame_jidlo">DámeJidlo.cz</string>
+    <string name="address_dame_jidlo">www.damejidlo.cz/en/</string>
+    <string name="website_dame_jidlo">https://www.damejidlo.cz/en/</string>
 
 
 </resources>
