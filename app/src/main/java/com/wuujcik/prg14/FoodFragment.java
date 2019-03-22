@@ -2,8 +2,6 @@ package com.wuujcik.prg14;
 
 import android.content.Context;
 import android.content.Intent;
-import android.media.AudioManager;
-import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -11,7 +9,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -28,7 +25,7 @@ public class FoodFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        final View rootView = inflater.inflate(R.layout.fragment_food, container, false);
+        final View rootView = inflater.inflate(R.layout.list_view, container, false);
 
         //the list of all restaurants that should be shown on the app
         final ArrayList<Place> restaurants = new ArrayList<>();
@@ -37,12 +34,13 @@ public class FoodFragment extends Fragment {
         restaurants.add(new Place(getString(R.string.name_kebabMardin), getString(R.string.address_kebabMardin), R.drawable.icon_blank));
         restaurants.add(new Place(getString(R.string.name_greenFactory), getString(R.string.address_green_factory), R.drawable.icon_green_factory, getString(R.string.website_greenFactory)));
         restaurants.add(new Place(getString(R.string.name_cafe_le_noble), getString(R.string.address_cafe_le_noble), R.drawable.icon_cafe_le_noble, getString(R.string.website_cafe_le_noble)));
+        restaurants.add(new Place(getString(R.string.name_liliova_cajovna), getString(R.string.address_liliova_cajovna), R.drawable.icon_liliova_cajovna,getString(R.string.website_liliova_cajovna)));
         restaurants.add(new Place(getString(R.string.name_dame_jidlo), getString(R.string.address_dame_jidlo), R.drawable.icon_dame_jidlo, getString(R.string.website_dame_jidlo)));
         restaurants.add(new Place(getString(R.string.name_albert), getString(R.string.address_albert), R.drawable.icon_albert, getString(R.string.website_albert)));
 
         //sets the layout to use PlaceAdapter
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), restaurants);
-        ListView listView = (ListView) rootView.findViewById(R.id.layout_restautants);
+        ListView listView = (ListView) rootView.findViewById(R.id.list_view);
 
         listView.setAdapter(adapter);
 

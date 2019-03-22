@@ -38,6 +38,16 @@ public class Place {
     //Create a new Place object
     //@param title is the name of the place described
     //@param description is the short description of the place described
+    //@param www is the website of the place
+    public Place(String title, String address, String website){
+        mTitle = title;
+        mAddress = address;
+        mWebsite = website;
+    }
+
+    //Create a new Place object
+    //@param title is the name of the place described
+    //@param description is the short description of the place described
     public Place(String title, String address){
         mTitle = title;
         mAddress = address;

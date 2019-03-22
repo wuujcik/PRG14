@@ -27,6 +27,7 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         View listItemView = convertView;
         if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
+           listItemView.setClipToOutline(true);
         }
 
         Place currentPlace = getItem(position);

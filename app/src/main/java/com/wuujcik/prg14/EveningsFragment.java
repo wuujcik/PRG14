@@ -6,9 +6,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class EveningssFragment extends Fragment {
+public class EveningsFragment extends Fragment {
 
-    public EveningssFragment() {
+    public EveningsFragment() {
         // Required empty public constructor
     }
 

@@ -36,6 +36,9 @@
     <string name="name_dame_jidlo">DámeJidlo.cz</string>
     <string name="address_dame_jidlo">www.damejidlo.cz/en/</string>
     <string name="website_dame_jidlo">https://www.damejidlo.cz/en/</string>
+    <string name="name_liliova_cajovna">Lily Tearoom</string>
+    <string name="address_liliova_cajovna">Sokolovská 117</string>
+    <string name="website_liliova_cajovna">http://liliovacajovna.cz/eng/</string>
 
 
 </resources>
