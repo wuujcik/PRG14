@@ -3,13 +3,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/amzn_blue"
+    android:orientation="vertical"
     tools:context=".TransportFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        style="@style/text"
-        android:text="Info about the interior" />
+        style="@style/CategoryStyle"
+        android:background="@drawable/layout_background"
+        android:text="Transport overview" />
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:background="@drawable/layout_background"
+        android:text="Ticket prices" />
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:background="@drawable/layout_background"
+        android:text="Where to buy tickets" />
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:background="@drawable/layout_background"
+        android:text="Lítačka - monthly pass card" />
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:background="@drawable/layout_background"
+        android:text="Taxi" />
 
 </LinearLayout>
