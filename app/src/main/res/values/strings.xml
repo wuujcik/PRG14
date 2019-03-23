@@ -2,8 +2,8 @@
     <string name="app_name">PRG14</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="welcome">Welcome to Amazon PRG14</string>
-    <string name="Where">Where to find us:</string>
+    <string name="welcome">Welcome to PRG14</string>
+    <string name="Where">Where we are:</string>
     <string name="address">Sokolovská 268/115\nKarlín\n180 00 Praha 8\nCzech Republic</string>
     <string name="How_to_find">How to get to the office:</string>
     <string name="transport"><u>Metro:</u> Invalidovna (yellow line)\n<u>Tram:</u> 3, 8, 24, 92\n<u>Bus:</u> H1</string>
@@ -38,6 +38,34 @@
     <string name="name_liliova_cajovna">Lily Tearoom</string>
     <string name="address_liliova_cajovna">Sokolovská 117</string>
     <string name="website_liliova_cajovna">http://liliovacajovna.cz/eng/</string>
+
+
+    <string name="name_transportOverview">Overview</string>
+    <string name="description_transportOverview">Prague has one of the best public transportation systems in Europe. The Prague City Transport Authority (DPP) includes metro (subway), trams and buses and it covers majority of the city and outskirts.
+        \n\nPublic transport in Prague is easy, reliable and affordable. Metro operates from around 4:45am till midnight, however there are night trams and buses.
+    </string>
+    <string name="name_ticketPrices">Ticket prices in Prague</string>
+    <string name="description_ticketPrices"><u><b>Short term tickets:</b></u>
+        \n30 minutes: 24 CZK\n90 minutes: 32 CZK\n24 hours: 110 CZK\n72 hours: 310 CZK
+        \n\nRemember to validate your ticket!
+        \n\n<b><u>Transferable long term passes:</u></b>
+        \nMonthly: 670 CZK\nQuaterly: 1880 CZK\nAnnual: 6100CZK
+        \n\n<b><u>Long term passes for Litačka holders:</u></b>
+        \nMonthly: 550 CZK\nQuaterly: 1480 CZK\n5-months: 2450 CZK\nAnnual: 3650 CZK
+        \n\nAll children under 6 and seniors over 70 years old may use the public transportation for free.
+        \nChildren between 6 and 15 years old have discounts.
+    </string>
+    <string name="name_WhereToBuyTickets">Where to buy tickets</string>
+    <string name="description_WhereToBuyTickets">List of places in Prague</string>
+    <string name="name_litackaApp">Litačka app</string>
+    <string name="description_litackaApp">You can also just click here and download the app in which you can buy tickets.</string>
+    <string name="name_litackaCard">Monthly pass - Litačka card</string>
+    <string name="description_litackaCard">The Litačka Prague travel card (Litačka sounds like \"litachka\") is a transport card designed to be used by adults for periods of between one month and one year.
+        \n\nTo get Litačka card you\'ll need to go to Skoda Palace at Jungmannova 35/29, Prague 1 with a passport-sized photo. There is a fee of 200 CZK for the \"on the go\" card.
+        \n\nYou can also order Litačka via online application (click) and have your card sent to one of the contact points or by post to home address.
+    </string>
+    <string name="name_taxi">taxi</string>
+    <string name="description_taxi">list of companies + phone numbers</string>
 
 
 </resources>

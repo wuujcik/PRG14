@@ -11,6 +11,7 @@ import com.wuujcik.prg14.fragments.FoodFragment;
 import com.wuujcik.prg14.fragments.LocationFragment;
 import com.wuujcik.prg14.fragments.NeighbourhoodFragment;
 import com.wuujcik.prg14.fragments.TransportFragment;
+import com.wuujcik.prg14.fragments.TransportationFragment;
 
 
 public class SimplePagerAdapter extends FragmentPagerAdapter {
@@ -23,10 +24,10 @@ public class SimplePagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch (position) {
             case 0: return new LocationFragment();
-            case 1: return new TransportFragment();
-            case 2: return new FoodFragment();
-            case 3: return new NeighbourhoodFragment();
-            case 4: return new EveningsFragment();
+            case 1: return new FoodFragment();
+            case 2: return new NeighbourhoodFragment();
+            case 3: return new EveningsFragment();
+            case 4: return new TransportationFragment();
             case 5: return new BusinessesFragment();
         }
         return null;
@@ -43,10 +44,10 @@ public class SimplePagerAdapter extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position) {
         switch (position){
             case 0: return "Location";
-            case 1: return "Transport";
-            case 2: return "Food";
-            case 3: return "Neighbourhood";
-            case 4: return "Evenings";
+            case 1: return "Food";
+            case 2: return "Neighbourhood";
+            case 3: return "Evenings";
+            case 4: return "Transport";
             case 5: return "what we do";
         }return null;
     }

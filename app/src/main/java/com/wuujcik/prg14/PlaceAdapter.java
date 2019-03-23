@@ -40,8 +40,8 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
 
         // Get the physical address of the place from the current Place object and
         // set this text on the element_address TextView
-        TextView addressTextView = listItemView.findViewById(R.id.element_address);
-        addressTextView.setText(currentPlace.getmAddress());
+        TextView addressTextView = listItemView.findViewById(R.id.element_description);
+        addressTextView.setText(currentPlace.getmDescription());
 
         //checks if there is an image that should be shown on the ListView
         // and makes it disappear if not

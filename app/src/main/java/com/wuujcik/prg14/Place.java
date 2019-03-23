@@ -7,7 +7,7 @@ package com.wuujcik.prg14;
 public class Place {
 
     private String mTitle;
-    private String mAddress;
+    private String mDescription;
     private int mIcon = NO_IMAGE_PROVIDED;
     private static final int NO_IMAGE_PROVIDED = -1;
     private String mWebsite;
@@ -18,9 +18,9 @@ public class Place {
     //@param description is the short description of the place described
     //@param icon is the ID of the drawable resource image that should be displayed
     //@param www is the website of the place
-    public Place(String title, String address, int icon, String website){
+    public Place(String title, String description, int icon, String website){
         mTitle = title;
-        mAddress = address;
+        mDescription = description;
         mIcon = icon;
         mWebsite = website;
     }
@@ -29,9 +29,9 @@ public class Place {
     //@param title is the name of the place described
     //@param description is the short description of the place described
     //@param icon is the ID of the drawable resource image that should be displayed
-    public Place(String title, String address, int icon){
+    public Place(String title, String description, int icon){
         mTitle = title;
-        mAddress = address;
+        mDescription = description;
         mIcon = icon;
     }
 
@@ -39,31 +39,32 @@ public class Place {
     //@param title is the name of the place described
     //@param description is the short description of the place described
     //@param www is the website of the place
-    public Place(String title, String address, String website){
+    public Place(String title, String description, String website){
         mTitle = title;
-        mAddress = address;
+        mDescription = description;
         mWebsite = website;
     }
 
     //Create a new Place object
     //@param title is the name of the place described
     //@param description is the short description of the place described
-    public Place(String title, String address){
+    public Place(String title, String description){
         mTitle = title;
-        mAddress = address;
+        mDescription = description;
     }
 
     public String getmTitle() {
         return mTitle;
     }
 
-    public String getmAddress() {
-        return mAddress;
+    public String getmDescription() {
+        return mDescription;
     }
 
     public int getmIcon() {
         return mIcon;
     }
+
     public String getmWebsite() {
         return mWebsite;
     }
