@@ -7,30 +7,35 @@
         <item name="colorPrimaryDark">@color/amzn_navy</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-    
-    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent ="@android:style/TextAppearance">
+
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@android:style/TextAppearance">
         <item name="android:textColor">@color/amzn_yellow</item>
         <item name="android:textStyle">bold</item>
     </style>
-<style name="super_title">
-    <item name="android:textStyle">bold</item>
-    <item name="android:textColor">@color/amzn_navy</item>
-    <item name="android:textSize">18sp</item>
-    <item name="android:layout_marginStart">16dp</item>
-    <item name="android:layout_marginTop">16dp</item>
-    <item name="android:layout_marginBottom">8dp</item>
-</style>
+
+    <style name="super_title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/amzn_yellow</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
     <style name="title">
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/amzn_navy</item>
         <item name="android:textSize">16sp</item>
         <item name="android:layout_margin">16dp</item>
     </style>
+
     <style name="text">
         <item name="android:textColor">@color/amzn_darkest</item>
         <item name="android:textSize">14sp</item>
         <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
     </style>
+
     <style name="title_list">
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/amzn_navy</item>
@@ -40,14 +45,16 @@
         <item name="android:layout_marginStart">16dp</item>
 
     </style>
+
     <style name="text_list">
         <item name="android:textColor">@color/amzn_darkest</item>
         <item name="android:textSize">14sp</item>
         <item name="android:layout_marginStart">16dp</item>
         <item name="android:layout_marginBottom">8dp</item>
     </style>
+
     <style name="text_open_link">
-        <item name="android:textColor">@color/amzn_blue</item>
+        <item name="android:textColor">@color/amzn_light</item>
         <item name="android:textSize">16sp</item>
         <item name="android:layout_marginStart">16dp</item>
         <item name="android:layout_marginBottom">16dp</item>
@@ -64,6 +71,16 @@
         <item name="android:textColor">@color/amzn_darkest</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:background">@drawable/layout_background</item>
+    </style>
+
+    <style name="LocationCardStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
         <item name="android:background">@drawable/layout_background</item>
     </style>
 

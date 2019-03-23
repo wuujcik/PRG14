@@ -7,12 +7,7 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.Button;
-import android.widget.LinearLayout;
-import android.widget.TextView;
-
 import com.wuujcik.prg14.transport.BuyingTickets;
 import com.wuujcik.prg14.transport.Litacka;
 import com.wuujcik.prg14.transport.Taxi;
@@ -81,6 +76,25 @@ public class MainActivity extends AppCompatActivity {
         // Create a new intent to open the {@link Taxi}
         Intent transportIntent = new Intent(MainActivity.this, Taxi.class);
         startActivity(transportIntent);
+    }
+
+
+
+    /**The below are onclick handlers for buttons within NeighbourhoodFragment */
+
+    public void button_neighbour_atm(View view) {
+    }
+
+    public void button_button_neighbour_post_office(View view) {
+    }
+
+    public void button_neighbour_fittness(View view) {
+    }
+
+    public void button_neighbour_medical(View view) {
+    }
+
+    public void button_neighbour_parks(View view) {
     }
 }
 

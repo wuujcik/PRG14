@@ -1,30 +1,32 @@
-package com.wuujcik.prg14;
+package com.wuujcik.prg14.fragments;
 
-
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
+
+import com.wuujcik.prg14.R;
+import com.wuujcik.prg14.transport.TransportOverview;
 
 
-/**
- * A simple {@link Fragment} subclass.
- */
-public class BusinessesFragment extends Fragment {
+public class TransportFragment extends Fragment {
 
-
-    public BusinessesFragment() {
+    public TransportFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View rootView = inflater.inflate(R.layout.fragment_businesses, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_transport, container, false);
+
+
 
         return rootView;
     }
+
 }

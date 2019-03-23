@@ -5,6 +5,13 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import com.wuujcik.prg14.fragments.BusinessesFragment;
+import com.wuujcik.prg14.fragments.EveningsFragment;
+import com.wuujcik.prg14.fragments.FoodFragment;
+import com.wuujcik.prg14.fragments.LocationFragment;
+import com.wuujcik.prg14.fragments.NeighbourhoodFragment;
+import com.wuujcik.prg14.fragments.TransportFragment;
+
 
 public class SimplePagerAdapter extends FragmentPagerAdapter {
 
