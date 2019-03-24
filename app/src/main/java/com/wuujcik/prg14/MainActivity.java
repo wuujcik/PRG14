@@ -8,6 +8,11 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import com.wuujcik.prg14.neighbourhood.NeighbourAtm;
+import com.wuujcik.prg14.neighbourhood.NeighbourFitness;
+import com.wuujcik.prg14.neighbourhood.NeighbourMedical;
+import com.wuujcik.prg14.neighbourhood.NeighbourParks;
+import com.wuujcik.prg14.neighbourhood.NeighbourPost;
 import com.wuujcik.prg14.transport.BuyingTickets;
 import com.wuujcik.prg14.transport.Litacka;
 import com.wuujcik.prg14.transport.Taxi;
@@ -37,6 +42,15 @@ public class MainActivity extends AppCompatActivity {
         // Give the TabLayout the ViewPager
         TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
         tabLayout.setupWithViewPager(viewPager);
+
+        /**
+
+        // Set the collapsing toolbar
+        android.support.v7.widget.Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        if(getSupportActionBar() != null)
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+*/
     }
 
     public void link_to_maps_app(View view) {
@@ -46,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    /**The below are onclick handlers for buttons within TransportFragment */
+    /**The below are onclick handlers for buttons within TransportFragment
 
     public void button_transport_overview(View view) {
         // Create a new intent to open the {@link TransportOverview}
@@ -78,23 +92,40 @@ public class MainActivity extends AppCompatActivity {
         startActivity(transportIntent);
     }
 
+*/
+
 
 
     /**The below are onclick handlers for buttons within NeighbourhoodFragment */
 
     public void button_neighbour_atm(View view) {
+        // Create a new intent to open the {@link NeighbourAtm}
+        Intent transportIntent = new Intent(MainActivity.this, NeighbourAtm.class);
+        startActivity(transportIntent);
     }
 
     public void button_button_neighbour_post_office(View view) {
+        // Create a new intent to open the {@link NeighbourPost}
+        Intent transportIntent = new Intent(MainActivity.this, NeighbourPost.class);
+        startActivity(transportIntent);
     }
 
     public void button_neighbour_fittness(View view) {
+        // Create a new intent to open the {@link NeighbourFitness}
+        Intent transportIntent = new Intent(MainActivity.this, NeighbourFitness.class);
+        startActivity(transportIntent);
     }
 
     public void button_neighbour_medical(View view) {
+        // Create a new intent to open the {@link NeighbourMedical}
+        Intent transportIntent = new Intent(MainActivity.this, NeighbourMedical.class);
+        startActivity(transportIntent);
     }
 
     public void button_neighbour_parks(View view) {
+        // Create a new intent to open the {@link NeighbourParks}
+        Intent transportIntent = new Intent(MainActivity.this, NeighbourParks.class);
+        startActivity(transportIntent);
     }
 }
 

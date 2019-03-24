@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".neighbourhood.NeighbourAtm">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/text"
+        android:layout_margin="16dp"
+        android:text="Donut oat cake liquorice pudding gingerbread lemon drops carrot cake tootsie roll sugar plum. Macaroon powder fruitcake cookie. Chocolate cake marshmallow icing ice cream candy canes gummi bears jujubes sugar plum. Muffin brownie dragée carrot cake cheesecake liquorice toffee powder cheesecake.
+"
+        />
+</LinearLayout>
