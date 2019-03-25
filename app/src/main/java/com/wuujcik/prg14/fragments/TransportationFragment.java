@@ -29,7 +29,6 @@ public class TransportationFragment extends Fragment {
     public TransportationFragment() {
         // Required empty public constructor
     }
-//TODO delete TransportFragment and fragment_transport.xml if you decide to continue with this one
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

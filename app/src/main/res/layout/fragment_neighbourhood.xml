@@ -7,31 +7,43 @@
     android:orientation="vertical"
     tools:context="com.wuujcik.prg14.MainActivity">
 
+    <FrameLayout style="@style/CategoryStyleFrame">
 
-    <Button
-        style="@style/CategoryStyle"
-        android:text="ATMs"
-        android:onClick="button_neighbour_atm"/>
+        <Button
+            style="@style/CategoryStyleInside"
+            android:onClick="button_neighbour_atm"
+            android:text="ATMs" />
+    </FrameLayout>
 
-    <Button
-        style="@style/CategoryStyle"
-        android:text="Post offices"
-        android:onClick="button_button_neighbour_post_office"/>
+    <FrameLayout style="@style/CategoryStyleFrame">
 
+        <Button
+            style="@style/CategoryStyleInside"
+            android:onClick="button_button_neighbour_post_office"
+            android:text="Post offices" />
+    </FrameLayout>
 
-    <Button
-        style="@style/CategoryStyle"
-        android:text="Fitnesses and gyms"
-        android:onClick="button_neighbour_fittness"/>
+    <FrameLayout style="@style/CategoryStyleFrame">
 
-    <Button
-        style="@style/CategoryStyle"
-        android:text="Medical help"
-        android:onClick="button_neighbour_medical"/>
+        <Button
+            style="@style/CategoryStyleInside"
+            android:onClick="button_neighbour_fittness"
+            android:text="Fitnesses and gyms" />
+    </FrameLayout>
 
-    <Button
-        style="@style/CategoryStyle"
-        android:text="Parks"
-        android:onClick="button_neighbour_parks"/>
+    <FrameLayout style="@style/CategoryStyleFrame">
 
+        <Button
+            style="@style/CategoryStyleInside"
+            android:onClick="button_neighbour_medical"
+            android:text="Medical help" />
+    </FrameLayout>
+
+    <FrameLayout style="@style/CategoryStyleFrame">
+
+        <Button
+            style="@style/CategoryStyleInside"
+            android:onClick="button_neighbour_parks"
+            android:text="Parks" />
+    </FrameLayout>
 </LinearLayout>

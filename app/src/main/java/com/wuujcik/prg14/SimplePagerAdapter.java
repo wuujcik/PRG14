@@ -10,7 +10,6 @@ import com.wuujcik.prg14.fragments.EveningsFragment;
 import com.wuujcik.prg14.fragments.FoodFragment;
 import com.wuujcik.prg14.fragments.LocationFragment;
 import com.wuujcik.prg14.fragments.NeighbourhoodFragment;
-import com.wuujcik.prg14.fragments.TransportFragment;
 import com.wuujcik.prg14.fragments.TransportationFragment;
 
 

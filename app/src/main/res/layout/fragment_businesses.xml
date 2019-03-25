@@ -8,26 +8,33 @@
     tools:context="com.wuujcik.prg14.MainActivity">
 
 
-    <Button
-        style="@style/CategoryStyle"
-        android:text="HRS/Life Cycle Services"
-        android:onClick="button_neighbour_atm"/>
+    <FrameLayout style="@style/CategoryStyleFrame">
 
-    <Button
-        style="@style/CategoryStyle"
-        android:text="TRMS"
-        android:onClick="button_button_neighbour_post_office"/>
+        <Button
+            style="@style/CategoryStyleInside"
+            android:text="HRS/Life Cycle Services" />
+    </FrameLayout>
 
+    <FrameLayout style="@style/CategoryStyleFrame">
 
-    <Button
-        style="@style/CategoryStyle"
-        android:text="IT Shared Services"
-        android:onClick="button_neighbour_fittness"/>
+        <Button
+            style="@style/CategoryStyleInside"
+            android:text="TRMS" />
+    </FrameLayout>
 
-    <Button
-        style="@style/CategoryStyle"
-        android:text="ROC"
-        android:onClick="button_neighbour_medical"/>
+    <FrameLayout style="@style/CategoryStyleFrame">
+
+        <Button
+            style="@style/CategoryStyleInside"
+            android:text="IT Shared Services" />
+    </FrameLayout>
+
+    <FrameLayout style="@style/CategoryStyleFrame">
+
+        <Button
+            style="@style/CategoryStyleInside"
+            android:text="ROC" />
+    </FrameLayout>
 
 
 </LinearLayout>
