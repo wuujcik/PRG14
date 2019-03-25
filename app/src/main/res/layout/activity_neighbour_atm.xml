@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppTheme"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
     tools:context=".neighbourhood.NeighbourAtm">
 
     <TextView
+        style="@style/text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/text"
         android:layout_margin="16dp"
-        android:text="Pie bonbon sweet roll lemon drops. Apple pie ice cream cake candy donut lemon drops I love halvah powder. Cupcake cookie biscuit chocolate cake carrot cake. Donut bonbon wafer topping."/>
+        android:text="Pie bonbon sweet roll lemon drops. Apple pie ice cream cake candy donut lemon drops I love halvah powder. Cupcake cookie biscuit chocolate cake carrot cake. Donut bonbon wafer topping." />
 
 </LinearLayout>

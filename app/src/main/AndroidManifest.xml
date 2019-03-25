@@ -17,20 +17,33 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".neighbourhood.NeighbourParks" android:label="PARKS"/>
-        <activity android:name=".neighbourhood.NeighbourMedical" android:label="MEDICAL CENTERS"/>
-        <activity android:name=".neighbourhood.NeighbourFitness" android:label="FITNESS AND GYMS"/>
-        <activity android:name=".neighbourhood.NeighbourPost" android:label="POST OFFICES"/>
-        <activity android:name=".neighbourhood.NeighbourAtm" android:label="ATM"/>
-        <activity android:name=".transport.Taxi"/>
-        <activity android:name=".transport.Litacka"/>
-        <activity android:name=".transport.BuyingTickets" />
-        <activity android:name=".transport.TicketPrices" />
-        <activity android:name=".transport.TransportOverview" />
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".neighbourhood.NeighbourParks"
+            android:label="PARKS"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".neighbourhood.NeighbourMedical"
+            android:label="MEDICAL CENTERS"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".neighbourhood.NeighbourFitness"
+            android:label="FITNESS AND GYMS"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".neighbourhood.NeighbourPost"
+            android:label="POST OFFICES"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".neighbourhood.NeighbourAtm"
+            android:label="ATM"
+            android:parentActivityName="com.wuujcik.prg14.MainActivity"/>
+
+        <activity
+            android:name=".MainActivity"
             android:theme="@style/AppTheme.Main">
             <intent-filter android:label="Amazon PRG14">
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
                 <category android:name="android.intent.category.BROWSABLE" />
             </intent-filter>

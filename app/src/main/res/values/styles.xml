@@ -1,10 +1,11 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light">
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <item name="colorPrimary">@color/amzn_darkest</item>
         <item name="colorPrimaryDark">@color/amzn_navy</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/amzn_yellow</item>
     </style>
 
     <style name="AppTheme.Main">
@@ -13,6 +14,7 @@
     </style>
 
     <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@android:style/TextAppearance">
+        <!-- THIS is where you can color the AppBar text -->
         <item name="android:textColor">@color/amzn_yellow</item>
         <item name="android:textStyle">bold</item>
     </style>
@@ -24,6 +26,7 @@
         <item name="android:gravity">center_horizontal</item>
         <item name="android:layout_marginBottom">16dp</item>
         <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
     </style>
 
     <style name="title">
@@ -47,6 +50,7 @@
         <item name="android:layout_marginTop">8dp</item>
         <item name="android:layout_marginBottom">8dp</item>
         <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
 
     </style>
 
@@ -54,6 +58,7 @@
         <item name="android:textColor">@color/amzn_darkest</item>
         <item name="android:textSize">14sp</item>
         <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
         <item name="android:layout_marginBottom">8dp</item>
     </style>
 
@@ -75,6 +80,7 @@
         <item name="android:background">@drawable/layout_background</item>
 
     </style>
+
     <style name="CategoryStyleInside">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>

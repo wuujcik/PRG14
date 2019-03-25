@@ -43,6 +43,9 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         TextView addressTextView = listItemView.findViewById(R.id.element_description);
         addressTextView.setText(currentPlace.getmDescription());
 
+
+
+
         //checks if there is an image that should be shown on the ListView
         // and makes it disappear if not
         if (currentPlace.hasImage()) {
@@ -52,6 +55,9 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
             ImageView iconView = (ImageView) listItemView.findViewById(R.id.element_icon);
             iconView.setVisibility(View.GONE);
         }
+
+/** feature removed for now
+ * TODO decide whether to keep it or delete it
 
         //checks if there is an website attached to the Place object
         //if yes - shows the icon_click_xml to suggest user that s/he can click on the item
@@ -64,7 +70,7 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
             iconClick.setVisibility(View.GONE);
 
         }
-
+         */
 
         return listItemView;
     }
