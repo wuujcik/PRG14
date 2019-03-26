@@ -39,10 +39,10 @@ public class TransportationFragment extends Fragment {
         //the list of all restaurants that should be shown on the app
         final ArrayList<Place> transportPlace = new ArrayList<>();
         transportPlace.add(new Place(getString(R.string.name_transportOverview), getString(R.string.description_transportOverview)));
-        transportPlace.add(new Place(getString(R.string.name_ticketPrices), getString(R.string.description_ticketPrices)));
-        transportPlace.add(new Place(getString(R.string.name_WhereToBuyTickets), getString(R.string.description_WhereToBuyTickets)));
-        transportPlace.add(new Place(getString(R.string.name_litackaApp), getString(R.string.description_litackaApp)));
-        transportPlace.add(new Place(getString(R.string.name_litackaCard), getString(R.string.description_litackaCard)));
+        transportPlace.add(new Place(getString(R.string.name_ticketPrices), getString(R.string.description_ticketPrices), getString(R.string.website_ticketPrices)));
+        transportPlace.add(new Place(getString(R.string.name_WhereToBuyTickets), getString(R.string.description_WhereToBuyTickets), getString(R.string.website_WhereToBuyTickets)));
+        transportPlace.add(new Place(getString(R.string.name_litackaApp), getString(R.string.description_litackaApp), getString(R.string.website_litackaApp)));
+        transportPlace.add(new Place(getString(R.string.name_litackaCard), getString(R.string.description_litackaCard), getString(R.string.website_litackaCard)));
         transportPlace.add(new Place(getString(R.string.name_taxi), getString(R.string.description_taxi)));
 
 
