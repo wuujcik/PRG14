@@ -6,7 +6,7 @@
     <string name="Where">Where we are:</string>
     <string name="address">Sokolovská 268/115\nKarlín\n180 00 Praha 8\nCzech Republic</string>
     <string name="How_to_find">How to get to the office:</string>
-    <string name="transport"><u>Metro:</u> Invalidovna (yellow line)\n<u>Tram:</u> 3, 8, 24, 92\n<u>Bus:</u> H1</string>
+    <string name="transport"><u>Metro:</u> Invalidovna (line B - yellow)\n<u>Tram:</u> 3, 8, 24, 92\n<u>Bus:</u> H1</string>
 
     <string name="name_sushiTime">Sushi Time</string>
     <string name="name_fastGood">FastGood</string>
@@ -70,6 +70,13 @@
     <string name="website_WhereToBuyTickets">http://www.dpp.cz/en/ticket-dispensers/</string>
     <string name="website_litackaApp"><![CDATA[https://play.google.com/store/apps/details?id=cz.dpp.praguepublictransport&hl=csv]]></string>
     <string name="website_litackaCard">https://www.pidlitacka.cz/registration</string>
+    <string name="description_loremipsum">Cupcake ipsum dolor sit amet danish carrot cake I love icing. Ice cream wafer I love gummi bears sesame snaps fruitcake marshmallow. Bonbon jelly wafer sugar plum soufflé dessert jujubes muffin I love.</string>
+    <string name="name_hrs">HRS</string>
+    <string name="name_trms">TRMS</string>
+    <string name="name_roc">ROC</string>
+    <string name="name_it">IT helpdesk</string>
+    <string name="name_learning">Employee Experience</string>
+    <string name="name_es_tech">ES Tech - Employee Services</string>
 
 
 </resources>

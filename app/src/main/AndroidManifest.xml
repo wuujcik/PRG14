@@ -17,6 +17,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".neighbourhood.NeighbourCurrency"
+            android:label="CURRENCY EXCHANGE"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".neighbourhood.NeighbourParks"
             android:label="PARKS"
@@ -36,8 +41,7 @@
         <activity
             android:name=".neighbourhood.NeighbourAtm"
             android:label="ATM"
-            android:parentActivityName="com.wuujcik.prg14.MainActivity"/>
-
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/AppTheme.Main">
@@ -48,10 +52,15 @@
                 <category android:name="android.intent.category.BROWSABLE" />
             </intent-filter>
         </activity>
-        <!-- <Maps Android Key -->
+        <!--<Maps Android Key-->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyAZE01fjHnneddip1q8TOYY7sOaosXlHSY" />
+
+        <!--Maps-->
     </application>
 
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
 </manifest>

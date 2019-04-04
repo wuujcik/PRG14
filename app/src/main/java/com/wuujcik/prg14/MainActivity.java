@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import com.wuujcik.prg14.neighbourhood.NeighbourAtm;
+import com.wuujcik.prg14.neighbourhood.NeighbourCurrency;
 import com.wuujcik.prg14.neighbourhood.NeighbourFitness;
 import com.wuujcik.prg14.neighbourhood.NeighbourMedical;
 import com.wuujcik.prg14.neighbourhood.NeighbourParks;
@@ -61,32 +62,38 @@ public class MainActivity extends AppCompatActivity {
 
     public void button_neighbour_atm(View view) {
         // Create a new intent to open the {@link NeighbourAtm}
-        Intent transportIntent = new Intent(MainActivity.this, NeighbourAtm.class);
-        startActivity(transportIntent);
+        Intent intent = new Intent(MainActivity.this, NeighbourAtm.class);
+        startActivity(intent);
     }
 
     public void button_button_neighbour_post_office(View view) {
         // Create a new intent to open the {@link NeighbourPost}
-        Intent transportIntent = new Intent(MainActivity.this, NeighbourPost.class);
-        startActivity(transportIntent);
+        Intent intent = new Intent(MainActivity.this, NeighbourPost.class);
+        startActivity(intent);
     }
 
     public void button_neighbour_fittness(View view) {
         // Create a new intent to open the {@link NeighbourFitness}
-        Intent transportIntent = new Intent(MainActivity.this, NeighbourFitness.class);
-        startActivity(transportIntent);
+        Intent intent = new Intent(MainActivity.this, NeighbourFitness.class);
+        startActivity(intent);
     }
 
     public void button_neighbour_medical(View view) {
         // Create a new intent to open the {@link NeighbourMedical}
-        Intent transportIntent = new Intent(MainActivity.this, NeighbourMedical.class);
-        startActivity(transportIntent);
+        Intent intent = new Intent(MainActivity.this, NeighbourMedical.class);
+        startActivity(intent);
     }
 
     public void button_neighbour_parks(View view) {
         // Create a new intent to open the {@link NeighbourParks}
-        Intent transportIntent = new Intent(MainActivity.this, NeighbourParks.class);
-        startActivity(transportIntent);
+        Intent intent = new Intent(MainActivity.this, NeighbourParks.class);
+        startActivity(intent);
+    }
+
+    public void button_neighbour_currency(View view) {
+        // Create a new intent to open the {@link NeighbourCurrency}
+        Intent intent = new Intent(MainActivity.this, NeighbourCurrency.class);
+        startActivity(intent);
     }
 }
 

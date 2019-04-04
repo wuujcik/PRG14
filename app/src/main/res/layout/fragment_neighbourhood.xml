@@ -7,6 +7,23 @@
     android:orientation="vertical"
     tools:context="com.wuujcik.prg14.MainActivity">
 
+
+    <FrameLayout style="@style/CategoryStyleFrame">
+
+        <Button
+            style="@style/CategoryStyleInside"
+            android:onClick="button_neighbour_fittness"
+            android:text="Fitnesses and gyms" />
+    </FrameLayout>
+
+    <FrameLayout style="@style/CategoryStyleFrame">
+
+        <Button
+            style="@style/CategoryStyleInside"
+            android:onClick="button_neighbour_parks"
+            android:text="Parks" />
+    </FrameLayout>
+
     <FrameLayout style="@style/CategoryStyleFrame">
 
         <Button
@@ -19,16 +36,8 @@
 
         <Button
             style="@style/CategoryStyleInside"
-            android:onClick="button_button_neighbour_post_office"
-            android:text="Post offices" />
-    </FrameLayout>
-
-    <FrameLayout style="@style/CategoryStyleFrame">
-
-        <Button
-            style="@style/CategoryStyleInside"
-            android:onClick="button_neighbour_fittness"
-            android:text="Fitnesses and gyms" />
+            android:onClick="button_neighbour_currency"
+            android:text="Currency Exchange" />
     </FrameLayout>
 
     <FrameLayout style="@style/CategoryStyleFrame">
@@ -43,7 +52,9 @@
 
         <Button
             style="@style/CategoryStyleInside"
-            android:onClick="button_neighbour_parks"
-            android:text="Parks" />
+            android:onClick="button_button_neighbour_post_office"
+            android:text="Post offices" />
     </FrameLayout>
+
+
 </LinearLayout>

@@ -36,7 +36,7 @@ public class TransportationFragment extends Fragment {
         // Inflate the layout for this fragment
         final View rootView = inflater.inflate(R.layout.list_view, container, false);
 
-        //the list of all restaurants that should be shown on the app
+        //the list of all transport elements that should be shown on the app
         final ArrayList<Place> transportPlace = new ArrayList<>();
         transportPlace.add(new Place(getString(R.string.name_transportOverview), getString(R.string.description_transportOverview)));
         transportPlace.add(new Place(getString(R.string.name_ticketPrices), getString(R.string.description_ticketPrices), getString(R.string.website_ticketPrices)));
