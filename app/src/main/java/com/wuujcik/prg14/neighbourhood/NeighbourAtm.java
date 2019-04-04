@@ -23,7 +23,7 @@ public class NeighbourAtm extends MainActivity {
         switch (item.getItemId()) {
             // Respond to the action bar's Up/Home button
             case android.R.id.home:
-              //  NavUtils.navigateUpFromSameTask(com.wuujcik.prg14.neighbourhood.NeighbourAtm.this);
+
               finish();
                 return true;
         }
