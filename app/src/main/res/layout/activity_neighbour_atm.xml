@@ -24,18 +24,22 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <FrameLayout style="@style/CategoryStyleFrame">
+            <FrameLayout style="@style/CategoryStyleFrame"
+                android:id="@+id/object1"
+                android:visibility="gone">
 
                 <Button
-                    android:id="@+id/object1"
+                    android:id="@+id/neighbour_button1"
                     style="@style/CategoryStyleInside"
                     tools:text="object 1" />
             </FrameLayout>
 
-            <FrameLayout style="@style/CategoryStyleFrame">
+            <FrameLayout style="@style/CategoryStyleFrame"
+                android:id="@+id/object2"
+                android:visibility="gone">
 
                 <Button
-                    android:id="@+id/object2"
+                    android:id="@+id/neighbour_button2"
                     style="@style/CategoryStyleInside"
                     tools:text="object 2" />
             </FrameLayout>
@@ -45,7 +49,7 @@
                 android:visibility="gone">
 
                 <Button
-
+                    android:id="@+id/neighbour_button3"
                     style="@style/CategoryStyleInside"
                     tools:text="object 3" />
             </FrameLayout>
@@ -56,7 +60,7 @@
                 android:visibility="gone">
 
                 <Button
-
+                    android:id="@+id/neighbour_button4"
                     style="@style/CategoryStyleInside"
                     tools:text="object 4" />
             </FrameLayout>

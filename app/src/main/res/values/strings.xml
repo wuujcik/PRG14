@@ -76,5 +76,8 @@
     <string name="name_it">IT helpdesk</string>
     <string name="name_learning">Employee Experience</string>
     <string name="name_es_tech">ES Tech - Employee Services</string>
+    <string name="atm1">Česká spořitelna - ATM</string>
+    <string name="atm2">Euronet Services - ATM</string>
+    <string name="atm3">ČSOB - ATM</string>
 
 </resources>
