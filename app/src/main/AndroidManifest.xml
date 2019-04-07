@@ -40,7 +40,7 @@
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".neighbourhood.NeighbourAtm"
-            android:label="ATM"
+            android:label="ATMs"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"

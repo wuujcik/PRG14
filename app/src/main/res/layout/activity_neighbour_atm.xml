@@ -24,34 +24,53 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <FrameLayout style="@style/CategoryStyleFrame"
+            <FrameLayout
                 android:id="@+id/object1"
-                android:visibility="gone">
+                style="@style/CategoryStyleFrame">
 
                 <Button
                     android:id="@+id/neighbour_button1"
                     style="@style/CategoryStyleInside"
+                    android:layout_marginEnd="52dp"
                     tools:text="object 1" />
+
+                <ImageView
+                    android:id="@+id/go_to_object1"
+                    style="@style/directionsButton" />
+
             </FrameLayout>
 
-            <FrameLayout style="@style/CategoryStyleFrame"
+            <FrameLayout
                 android:id="@+id/object2"
+                style="@style/CategoryStyleFrame"
                 android:visibility="gone">
 
                 <Button
                     android:id="@+id/neighbour_button2"
                     style="@style/CategoryStyleInside"
+                    android:layout_marginEnd="52dp"
                     tools:text="object 2" />
+
+                <ImageView
+                    android:id="@+id/go_to_object2"
+                    style="@style/directionsButton" />
+
             </FrameLayout>
 
-            <FrameLayout style="@style/CategoryStyleFrame"
+            <FrameLayout
                 android:id="@+id/object3"
+                style="@style/CategoryStyleFrame"
                 android:visibility="gone">
 
                 <Button
                     android:id="@+id/neighbour_button3"
                     style="@style/CategoryStyleInside"
+                    android:layout_marginEnd="52dp"
                     tools:text="object 3" />
+
+                <ImageView
+                    android:id="@+id/go_to_object3"
+                    style="@style/directionsButton" />
             </FrameLayout>
 
             <FrameLayout
@@ -62,7 +81,12 @@
                 <Button
                     android:id="@+id/neighbour_button4"
                     style="@style/CategoryStyleInside"
-                    tools:text="object 4" />
+                    android:layout_marginEnd="52dp"
+                    tools:text="object 4"/>
+
+                <ImageView
+                    android:id="@+id/go_to_object4"
+                    style="@style/directionsButton" />
             </FrameLayout>
         </LinearLayout>
     </ScrollView>

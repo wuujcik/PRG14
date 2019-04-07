@@ -7,10 +7,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
+import android.widget.ImageView;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.GoogleMapOptions;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
@@ -41,6 +41,10 @@ public class NeighbourAtm extends MainActivity implements OnMapReadyCallback {
                 .findFragmentById(R.id.map_atm);
         mapFragment.getMapAsync(this);
 
+
+        /**
+         * Handling buttons with the directions to markers
+         */
         //sets the visibility to 1st button
         final FrameLayout object1 = findViewById(R.id.object1);
         object1.setVisibility(View.VISIBLE);
@@ -53,12 +57,17 @@ public class NeighbourAtm extends MainActivity implements OnMapReadyCallback {
                 markers.get(0).showInfoWindow();
                 markers.get(1).hideInfoWindow();
                 markers.get(2).hideInfoWindow();
-              /**
+            }
+        });
+        //sets on click listener to the directions image
+        final ImageView go_to_object1 = findViewById(R.id.go_to_object1);
+        go_to_object1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
                 //send intent to show the directions between PRG14 and the object1 in googlemaps
                 Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
                         Uri.parse("https://www.google.com/maps/dir/Amazon+PRG14,+Sokolovsk%C3%A1,+Praga+8-Invalidovna/%C4%8Cesk%C3%A1+spo%C5%99itelna,+a.s.+-+ATM,+ALBERT,+Mol%C3%A1kova+578%2F36,+186+00+Praha+8-Invalidovna/@50.0977123,14.4629938,17z/am=t/data=!4m14!4m13!1m5!1m1!1s0x470b9357cb3279c3:0x44b87dbe980ba8a!2m2!1d14.4657318!2d50.0984322!1m5!1m1!1s0x470b9357e1f96acd:0xa8ee19ec594319c4!2m2!1d14.4649385!2d50.0973692!3e2"));
                 startActivity(intent);
-               */
             }
         });
 
@@ -67,35 +76,52 @@ public class NeighbourAtm extends MainActivity implements OnMapReadyCallback {
         object2.setVisibility(View.VISIBLE);
         final Button button2 = findViewById(R.id.neighbour_button2);
         button2.setText(getString(R.string.atm2));
-        //sets the on click listener to 1st button
+        //sets the on click listener to 2nd button
         button2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                markerPrg14.showInfoWindow();
                 markers.get(0).hideInfoWindow();
                 markers.get(1).showInfoWindow();
                 markers.get(2).hideInfoWindow();
-                /**
-                //send intent to show the directions between PRG14 and the object1 in googlemaps
+            }
+        });
+        //sets on click listener to the directions image
+        final ImageView go_to_object2 = findViewById(R.id.go_to_object2);
+        go_to_object2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //send intent to show the directions between PRG14 and the object2 in googlemaps
                 Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
                         Uri.parse("https://www.google.com/maps/dir/Amazon+PRG14,+Sokolovsk%C3%A1,+Praga+8-Invalidovna/Euronet+Services,+spol.+s+r.o.,+Sokolovsk%C3%A1+615%2F138,+186+00+Praha+8-Invalidovna/@50.0985586,14.4648408,17z/am=t/data=!4m14!4m13!1m5!1m1!1s0x470b9357cb3279c3:0x44b87dbe980ba8a!2m2!1d14.4657318!2d50.0984322!1m5!1m1!1s0x470b9357ad6bbc31:0x49b41fdf7315cfe4!2m2!1d14.4683271!2d50.0984669!3e2"));
                 startActivity(intent);
-                 */
             }
         });
 
-        //sets the visibility and on click listener to 3rd button
+
+        //sets the visibility to 3rd button
         final FrameLayout object3 = findViewById(R.id.object3);
         object3.setVisibility(View.VISIBLE);
         final Button button3 = findViewById(R.id.neighbour_button3);
         button3.setText(R.string.atm3);
+        //sets the on click listener to 3rd button
         button3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                //send intent to show the directions between PRG14 and the object1 in googlemaps
+                markers.get(0).hideInfoWindow();
+                markers.get(1).hideInfoWindow();
+                markers.get(2).showInfoWindow();
+            }
+        });
+        //sets on click listener to the directions image
+        final ImageView go_to_object3 = findViewById(R.id.go_to_object3);
+        go_to_object3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //send intent to show the directions between PRG14 and the object3 in googlemaps
                 Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
                         Uri.parse("https://www.google.com/maps/dir/Amazon+PRG14,+Sokolovsk%C3%A1,+Praga+8-Invalidovna/%C4%8CSOB+bankomat,+Unnamed+Road,+186+00,+Invalidovna,+186+00+Praha+8/@50.0976266,14.4634441,18z/am=t/data=!4m14!4m13!1m5!1m1!1s0x470b9357cb3279c3:0x44b87dbe980ba8a!2m2!1d14.4657318!2d50.0984322!1m5!1m1!1s0x470b95c51bc6dad1:0x207b603edbb959be!2m2!1d14.4631635!2d50.0968176!3e2"));
                 startActivity(intent);
             }
         });
+
     }
 
     @Override

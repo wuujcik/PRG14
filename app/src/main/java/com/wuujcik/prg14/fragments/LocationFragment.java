@@ -26,7 +26,6 @@ public class LocationFragment extends Fragment implements OnMapReadyCallback {
     View rootView;
     ScrollView scrollView;
 
-//TODO dodać do mapy możliwość przesuwania
 
     public LocationFragment() {
         // Required empty public constructor
