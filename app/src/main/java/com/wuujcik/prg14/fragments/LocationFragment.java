@@ -60,7 +60,8 @@ public class LocationFragment extends Fragment implements OnMapReadyCallback {
         mGoogleMap.addMarker(new MarkerOptions()
                 .position(prg14)
                 .title("PRG14")
-                .snippet("Sokolovská 268/115").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE)));
+                .snippet("Sokolovská 268/115")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE)));
         mGoogleMap.moveCamera(CameraUpdateFactory.newLatLng(prg14));
         mGoogleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(prg14, 15.0f));
         mGoogleMap.getUiSettings().setZoomControlsEnabled(true);
