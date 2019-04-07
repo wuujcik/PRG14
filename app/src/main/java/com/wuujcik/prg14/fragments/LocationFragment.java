@@ -14,6 +14,7 @@ import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.wuujcik.prg14.R;
 
@@ -57,7 +58,7 @@ public class LocationFragment extends Fragment implements OnMapReadyCallback {
         mGoogleMap = googleMap;
 
         LatLng prg14 = new LatLng(50.098420, 14.465882);
-        mGoogleMap.addMarker(new MarkerOptions()
+        Marker markerPrg14 = mGoogleMap.addMarker(new MarkerOptions()
                 .position(prg14)
                 .title("PRG14")
                 .snippet("Sokolovská 268/115")
@@ -65,6 +66,7 @@ public class LocationFragment extends Fragment implements OnMapReadyCallback {
         mGoogleMap.moveCamera(CameraUpdateFactory.newLatLng(prg14));
         mGoogleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(prg14, 15.0f));
         mGoogleMap.getUiSettings().setZoomControlsEnabled(true);
+        markerPrg14.showInfoWindow();
 
         GoogleMapOptions options = new GoogleMapOptions();
         options.rotateGesturesEnabled(true)
