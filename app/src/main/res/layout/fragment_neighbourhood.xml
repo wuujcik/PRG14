@@ -20,14 +20,6 @@
 
         <Button
             style="@style/CategoryStyleInside"
-            android:onClick="button_neighbour_parks"
-            android:text="Parks" />
-    </FrameLayout>
-
-    <FrameLayout style="@style/CategoryStyleFrame">
-
-        <Button
-            style="@style/CategoryStyleInside"
             android:onClick="button_neighbour_atm"
             android:text="ATMs" />
     </FrameLayout>

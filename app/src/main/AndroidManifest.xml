@@ -23,10 +23,6 @@
             android:label="CURRENCY EXCHANGE"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".neighbourhood.NeighbourParks"
-            android:label="PARKS"
-            android:parentActivityName=".MainActivity" />
-        <activity
             android:name=".neighbourhood.NeighbourMedical"
             android:label="MEDICAL CENTERS"
             android:parentActivityName=".MainActivity" />

@@ -12,7 +12,6 @@ import com.wuujcik.prg14.neighbourhood.NeighbourAtm;
 import com.wuujcik.prg14.neighbourhood.NeighbourCurrency;
 import com.wuujcik.prg14.neighbourhood.NeighbourFitness;
 import com.wuujcik.prg14.neighbourhood.NeighbourMedical;
-import com.wuujcik.prg14.neighbourhood.NeighbourParks;
 import com.wuujcik.prg14.neighbourhood.NeighbourPost;
 
 
@@ -84,11 +83,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void button_neighbour_parks(View view) {
-        // Create a new intent to open the {@link NeighbourParks}
-        Intent intent = new Intent(MainActivity.this, NeighbourParks.class);
-        startActivity(intent);
-    }
 
     public void button_neighbour_currency(View view) {
         // Create a new intent to open the {@link NeighbourCurrency}
