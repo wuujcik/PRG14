@@ -82,6 +82,17 @@
     <string name="atm1">Česká spořitelna - ATM</string>
     <string name="atm2">Euronet Services - ATM</string>
     <string name="atm3">ČSOB - ATM</string>
+    <string name="direction_atm1">https://www.google.com/maps/dir/Amazon+PRG14,+Sokolovsk%C3%A1,+Praga+8-Invalidovna/%C4%8Cesk%C3%A1+spo%C5%99itelna,+a.s.+-+ATM,+ALBERT,+Mol%C3%A1kova+578%2F36,+186+00+Praha+8-Invalidovna/@50.0977123,14.4629938,17z/am=t/data=!4m14!4m13!1m5!1m1!1s0x470b9357cb3279c3:0x44b87dbe980ba8a!2m2!1d14.4657318!2d50.0984322!1m5!1m1!1s0x470b9357e1f96acd:0xa8ee19ec594319c4!2m2!1d14.4649385!2d50.0973692!3e2</string>
+    <string name="direction_atm2">https://www.google.com/maps/dir/Amazon+PRG14,+Sokolovsk%C3%A1,+Praga+8-Invalidovna/Euronet+Services,+spol.+s+r.o.,+Sokolovsk%C3%A1+615%2F138,+186+00+Praha+8-Invalidovna/@50.0985586,14.4648408,17z/am=t/data=!4m14!4m13!1m5!1m1!1s0x470b9357cb3279c3:0x44b87dbe980ba8a!2m2!1d14.4657318!2d50.0984322!1m5!1m1!1s0x470b9357ad6bbc31:0x49b41fdf7315cfe4!2m2!1d14.4683271!2d50.0984669!3e2</string>
+    <string name="direction_atm3">https://www.google.com/maps/dir/Amazon+PRG14,+Sokolovsk%C3%A1,+Praga+8-Invalidovna/%C4%8CSOB+bankomat,+Unnamed+Road,+186+00,+Invalidovna,+186+00+Praha+8/@50.0976266,14.4634441,18z/am=t/data=!4m14!4m13!1m5!1m1!1s0x470b9357cb3279c3:0x44b87dbe980ba8a!2m2!1d14.4657318!2d50.0984322!1m5!1m1!1s0x470b95c51bc6dad1:0x207b603edbb959be!2m2!1d14.4631635!2d50.0968176!3e2</string>
+    <string name="marker_address_prg14">Sokolovská 268/115</string>
+    <string name="post1">Pošta Palmovka</string>
+    <string name="direction_post1">https://www.google.com/maps/dir/Amazon+PRG14,+Sokolovsk%C3%A1,+Praga+8-Invalidovna/%C4%8Cesk%C3%A1+po%C5%A1ta,+Sokolovsk%C3%A1+260%2F143,+180+00+Praha+8-Palmovka/@50.1005675,14.4668802,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x470b9357cb3279c3:0x44b87dbe980ba8a!2m2!1d14.4657318!2d50.0984322!1m5!1m1!1s0x470b935375b3546d:0xcecdf60a471a5864!2m2!1d14.4766837!2d50.1028711!3e2</string>
+    <string name="post2">Pošta Karlín</string>
+    <string name="direction_post2">https://www.google.com/maps/dir/Amazon+PRG14,+Sokolovsk%C3%A1,+Praga+8-Invalidovna/Czech+Post,+Karl%C3%ADnsk%C3%A9+n%C3%A1m.+145%2F1,+186+00+Karl%C3%ADn/@50.0957748,14.4482097,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x470b9357cb3279c3:0x44b87dbe980ba8a!2m2!1d14.4657318!2d50.0984322!1m5!1m1!1s0x470b94a3558e9775:0xee94282d9ecc04d9!2m2!1d14.4482368!2d50.0931104!3e2</string>
+    <string name="post1a">Pošta Palmovka 8:00–19:00</string>
+    <string name="post2a">Pošta Karlín 8:00–18:00</string>
+    <string name="prg14">PRG14</string>
 
 
 </resources>

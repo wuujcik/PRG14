@@ -33,12 +33,12 @@ public class NeighbourAtm extends MainActivity implements OnMapReadyCallback {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_neighbour_atm);
+        setContentView(R.layout.activity_neighbour);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         //support map view
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-                .findFragmentById(R.id.map_atm);
+                .findFragmentById(R.id.map_neighbour);
         mapFragment.getMapAsync(this);
 
 
@@ -66,7 +66,7 @@ public class NeighbourAtm extends MainActivity implements OnMapReadyCallback {
             public void onClick(View v) {
                 //send intent to show the directions between PRG14 and the object1 in googlemaps
                 Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
-                        Uri.parse("https://www.google.com/maps/dir/Amazon+PRG14,+Sokolovsk%C3%A1,+Praga+8-Invalidovna/%C4%8Cesk%C3%A1+spo%C5%99itelna,+a.s.+-+ATM,+ALBERT,+Mol%C3%A1kova+578%2F36,+186+00+Praha+8-Invalidovna/@50.0977123,14.4629938,17z/am=t/data=!4m14!4m13!1m5!1m1!1s0x470b9357cb3279c3:0x44b87dbe980ba8a!2m2!1d14.4657318!2d50.0984322!1m5!1m1!1s0x470b9357e1f96acd:0xa8ee19ec594319c4!2m2!1d14.4649385!2d50.0973692!3e2"));
+                        Uri.parse(getString(R.string.direction_atm1)));
                 startActivity(intent);
             }
         });
@@ -91,7 +91,7 @@ public class NeighbourAtm extends MainActivity implements OnMapReadyCallback {
             public void onClick(View v) {
                 //send intent to show the directions between PRG14 and the object2 in googlemaps
                 Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
-                        Uri.parse("https://www.google.com/maps/dir/Amazon+PRG14,+Sokolovsk%C3%A1,+Praga+8-Invalidovna/Euronet+Services,+spol.+s+r.o.,+Sokolovsk%C3%A1+615%2F138,+186+00+Praha+8-Invalidovna/@50.0985586,14.4648408,17z/am=t/data=!4m14!4m13!1m5!1m1!1s0x470b9357cb3279c3:0x44b87dbe980ba8a!2m2!1d14.4657318!2d50.0984322!1m5!1m1!1s0x470b9357ad6bbc31:0x49b41fdf7315cfe4!2m2!1d14.4683271!2d50.0984669!3e2"));
+                        Uri.parse(getString(R.string.direction_atm2)));
                 startActivity(intent);
             }
         });
@@ -117,7 +117,7 @@ public class NeighbourAtm extends MainActivity implements OnMapReadyCallback {
             public void onClick(View v) {
                 //send intent to show the directions between PRG14 and the object3 in googlemaps
                 Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
-                        Uri.parse("https://www.google.com/maps/dir/Amazon+PRG14,+Sokolovsk%C3%A1,+Praga+8-Invalidovna/%C4%8CSOB+bankomat,+Unnamed+Road,+186+00,+Invalidovna,+186+00+Praha+8/@50.0976266,14.4634441,18z/am=t/data=!4m14!4m13!1m5!1m1!1s0x470b9357cb3279c3:0x44b87dbe980ba8a!2m2!1d14.4657318!2d50.0984322!1m5!1m1!1s0x470b95c51bc6dad1:0x207b603edbb959be!2m2!1d14.4631635!2d50.0968176!3e2"));
+                        Uri.parse(getString(R.string.direction_atm3)));
                 startActivity(intent);
             }
         });
@@ -151,7 +151,7 @@ public class NeighbourAtm extends MainActivity implements OnMapReadyCallback {
         markerPrg14 = mMap.addMarker(new MarkerOptions()
                 .position(prg14)
                 .title("PRG14")
-                .snippet("Sokolovská 268/115")
+                .snippet(getString(R.string.marker_address_prg14))
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE)));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(prg14));
         mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(prg14, 16.0f));
