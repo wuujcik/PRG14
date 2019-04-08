@@ -35,6 +35,7 @@ public class FoodFragment extends Fragment {
         final ArrayList<Place> restaurants = new ArrayList<>();
         restaurants.add(new Place(getString(R.string.name_sushiTime), getString(R.string.address_sushiTime), R.drawable.icon_sushi, getString(R.string.website_sushiTime)));
         restaurants.add(new Place(getString(R.string.name_fastGood), getString(R.string.address_fastGood), R.drawable.icon_fast_good, getString(R.string.website_fastGood)));
+        restaurants.add(new Place(getString(R.string.name_pizzeriaAmfora), getString(R.string.address_pizzeriaAmfora), R.drawable.icon_pizzeria_amfora, getString(R.string.website_pizzeriaAmfora)));
         restaurants.add(new Place(getString(R.string.name_kebabMardin), getString(R.string.address_kebabMardin), R.drawable.icon_blank));
         restaurants.add(new Place(getString(R.string.name_greenFactory), getString(R.string.address_green_factory), R.drawable.icon_green_factory, getString(R.string.website_greenFactory)));
         restaurants.add(new Place(getString(R.string.name_cafe_le_noble), getString(R.string.address_cafe_le_noble), R.drawable.icon_cafe_le_noble, getString(R.string.website_cafe_le_noble)));
