@@ -1,17 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".neighbourhood.NeighbourAtm">
+    android:background="@color/amzn_blue"
+    android:orientation="vertical">
 
-    <TextView
+    <fragment
+        android:id="@+id/map_neighbour"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        style="@style/text"
-        android:layout_margin="16dp"
-        android:text="Lollipop biscuit danish. Carrot cake toffee jujubes jujubes carrot cake toffee croissant oat cake. I love cake I love tootsie roll I love sesame snaps chocolate cake toffee chocolate cake."/>
+        android:layout_height="300dp"
+        android:layout_marginBottom="24dp"
+        tools:context=".MapsActivity" />
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/object1"
+                style="@style/CategoryStyleFrame">
+
+                <Button
+                    android:id="@+id/neighbour_button1"
+                    style="@style/CategoryStyleInside"
+                    android:layout_marginEnd="52dp"
+                    tools:text="object 1" />
+
+                <ImageView
+                    android:id="@+id/go_to_object1"
+                    style="@style/webButton" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/object2"
+                style="@style/CategoryStyleFrame"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/neighbour_button2"
+                    style="@style/CategoryStyleInside"
+                    android:layout_marginEnd="52dp"
+                    tools:text="object 2" />
+
+                <ImageView
+                    android:id="@+id/go_to_object2"
+                    style="@style/directionsButton" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/object3"
+                style="@style/CategoryStyleFrame"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/neighbour_button3"
+                    style="@style/CategoryStyleInside"
+                    android:layout_marginEnd="52dp"
+                    tools:text="object 3" />
+
+                <ImageView
+                    android:id="@+id/go_to_object3"
+                    style="@style/directionsButton" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/object4"
+                style="@style/CategoryStyleFrame"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/neighbour_button4"
+                    style="@style/CategoryStyleInside"
+                    android:layout_marginEnd="52dp"
+                    tools:text="object 4"/>
+
+                <ImageView
+                    android:id="@+id/go_to_object4"
+                    style="@style/directionsButton" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
