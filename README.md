@@ -9,7 +9,7 @@ https://youtu.be/4jlUpXxyFF8
 
 ## Installation
 
-For now the app is not yet released, so if you'd like to use it, please download the code and open in in Android Studio.
+For now the app is not yet released, so if you'd like to use it, please download the code and open it in Android Studio.
 
 Please note that you will need to add your own key for maps API as this is not public.
 To do so, please generate your own maps api key and create a string with a name "map_key_find" with a value of your key or else you can simply hardcode your key in the Manifest in meta-data (instead of _@string/map_key_find_):
