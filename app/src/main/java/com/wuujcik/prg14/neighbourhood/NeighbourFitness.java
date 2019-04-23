@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -61,7 +62,7 @@ public class NeighbourFitness extends MainActivity implements OnMapReadyCallback
             }
         });
         //sets on click listener to the directions image
-        final ImageView go_to_object1 = findViewById(R.id.go_to_object1);
+        final LinearLayout go_to_object1 = findViewById(R.id.go_to_object1);
         go_to_object1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
