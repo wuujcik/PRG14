@@ -75,7 +75,7 @@ public class NeighbourFitness extends MainActivity implements OnMapReadyCallback
 
         //sets the visibility to 2nd button
         final FrameLayout object2 = findViewById(R.id.object2);
-        object2.setVisibility(View.VISIBLE);
+        object2.setVisibility(View.GONE);
         final Button button2 = findViewById(R.id.neighbour_button2);
         button2.setText(getString(R.string.atm2));
         //sets the on click listener to 2nd button
@@ -102,7 +102,7 @@ public class NeighbourFitness extends MainActivity implements OnMapReadyCallback
 
         //sets the visibility to 3rd button
         final FrameLayout object3 = findViewById(R.id.object3);
-        object3.setVisibility(View.VISIBLE);
+        object3.setVisibility(View.GONE);
         final Button button3 = findViewById(R.id.neighbour_button3);
         button3.setText(R.string.atm3);
         //sets the on click listener to 3rd button
@@ -169,22 +169,22 @@ public class NeighbourFitness extends MainActivity implements OnMapReadyCallback
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
 
 
-
-        Marker marker1 = mMap.addMarker(new MarkerOptions()
-                .position(gym2)
-                .title(getString(R.string.atm2))
-                .snippet("Sokolovská 615/138")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
-
-        Marker marker2 =  mMap.addMarker(new MarkerOptions()
-                .position(gym3)
-                .title(getString(R.string.atm3))
-                .snippet("Sokolovská 663/136")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
+//TODO add markers for more gyms
+//        Marker marker1 = mMap.addMarker(new MarkerOptions()
+//                .position(gym2)
+//                .title(getString(R.string.atm2))
+//                .snippet("Sokolovská 615/138")
+//                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
+//
+//        Marker marker2 =  mMap.addMarker(new MarkerOptions()
+//                .position(gym3)
+//                .title(getString(R.string.atm3))
+//                .snippet("Sokolovská 663/136")
+//                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
 
         markers.add(marker0);
-        markers.add(marker1);
-        markers.add(marker2);
+//        markers.add(marker1);
+//        markers.add(marker2);
     }
 
     @Override
