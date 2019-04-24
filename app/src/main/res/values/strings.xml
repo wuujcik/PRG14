@@ -95,6 +95,10 @@
     <string name="prg14">PRG14</string>
     <string name="gym1">YogaKarlin</string>
     <string name="web_yogaKarlin">https://yogakarlin.cz/en/</string>
+    <string name="doctor1">Hospital na Bulovce</string>
+    <string name="doctor2">Hospital na Žižkově</string>
+    <string name="direction_doc1">http://bulovka.cz/</string>
+    <string name="direction_doc2">http://www.nemocnicenazizkove.cz/</string>
 
 
 </resources>
